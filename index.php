@@ -26,7 +26,7 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "rizkiagussappserver.database.windows.net";
+    $host = "rizkiagussappserver.database.windows.net,1433";
     $user = "rizkiaguss";
     $pass = "qwerTY22";
     $db = "Registration";
