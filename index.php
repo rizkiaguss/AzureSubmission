@@ -32,10 +32,10 @@
          <input type="submit" name="simpan" class="btn btn-primary btn-md">
       </form>
       <?php
-      $host = "khaidirwebserver.database.windows.net,1433";
-      $user = "khaidir";
-      $pass = "naruto123#";
-      $db = "khaidirwebappserver";
+      $host = "rizkiagussappserver.database.windows.net,1433";
+      $user = "rizkiaguss";
+      $pass = "qwerTY22";
+      $db = "Registration";
       try {
          $con = new PDO("sqlsrv:Server = $host; Database = $db", $user, $pass);
          $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
